@@ -1,0 +1,10 @@
+[project]
+name = "pico-preprocessing"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=3.48.0",
+    "polars>=2.1.0",
+    "pydantic>=2.14.3",
+    "tenacity>=9.2.1",
+]

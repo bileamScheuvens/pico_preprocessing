@@ -104,7 +104,7 @@ def write_safe(df):
 if __name__ == "__main__":
     df = load_with_extraction()
     batch_size = 512
-    max_workers = 128
+    max_workers = 16
     n_pending = num_pending(df)
     with tqdm(total=n_pending) as pbar:
         while n_pending > 0:
